@@ -11,7 +11,16 @@ import java.util.Date;
  * @author Bufigol
  */
 public class Usuario {
+
     private String usrName;
     private Date fechaNacimiento;
     private String email;
+    private String Nombre, Apellido;
+
+    public Usuario(String usrName, Date fechaNacimiento, String email,
+            String Nombre, String Apellido) {
+        this.usrName = usrName;
+        
+    }
+
 }
