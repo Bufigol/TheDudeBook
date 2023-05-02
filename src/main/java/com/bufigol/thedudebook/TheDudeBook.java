@@ -6,7 +6,7 @@ package com.bufigol.thedudebook;
 
 /**
  *
- * @author Felipe
+ * @author Bufigol
  */
 public class TheDudeBook {
 
