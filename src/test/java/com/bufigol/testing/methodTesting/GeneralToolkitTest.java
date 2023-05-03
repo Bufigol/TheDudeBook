@@ -21,12 +21,14 @@ public class GeneralToolkitTest {
     @Test
     public void testCheckMailValidEmail() {
         // Arrange
-        String email = "example@gmail.com";
-
+        String email[] = {"example@gmail.com","ejemplo@dominio.com"};
+        boolean result;
         // Act
-        boolean result = GeneralToolkit.checkMail(email);
+        for (int i = 0; i < email.length; i++) {
+            result = GeneralToolkit.checkMail(email[i]);
+            // Assert
+            assertTrue(result);
+        }
 
-        // Assert
-        assertTrue(result);
     }
 }

@@ -5,10 +5,9 @@
 package com.bufigol.tools;
 
 import java.util.Date;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
 import java.time.LocalDate;
 import java.time.Period;
+import java.util.regex.Pattern;
 
 /**
  *
@@ -17,14 +16,17 @@ import java.time.Period;
 public class GeneralToolkit {
 
     public static boolean checkMail(String email) {
-        boolean exit = false;
-        // Expresión regular para validar una dirección de correo electrónico
-        String regex = "^[A-Za-z0-9+_.-]+@[a-zA-Z0-9.-]+\\.(gmail|yahoo|hotmail|outlook)\\.(com|es|net)$";
-        // Compilar la expresión regular en un patrón
-        Pattern pattern = Pattern.compile(regex);
-        // Obtener un objeto Matcher para la dirección de correo electrónico
-        Matcher matcher = pattern.matcher(email);
-        exit = matcher.matches();
+        boolean exit;
+        String emailRegex = "^[a-zA-Z0-9_+&*-]+(?:\\."
+                + "[a-zA-Z0-9_+&*-]+)*@"
+                + "(?:[a-zA-Z0-9-]+\\.)+[a-z"
+                + "A-Z]{2,7}$";
+        Pattern pat = Pattern.compile(emailRegex);
+        if(email != null){
+            exit=pat.matcher(email).matches();
+        }else{
+            exit=false;
+        }
         return exit;
     }
 
