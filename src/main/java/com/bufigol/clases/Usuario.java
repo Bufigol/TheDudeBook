@@ -6,6 +6,8 @@ package com.bufigol.clases;
 
 import java.util.Date;
 
+import com.bufigol.tools.GeneralToolkit;
+
 /**
  *
  * @author Bufigol
@@ -17,10 +19,21 @@ public class Usuario {
     private String email;
     private String Nombre, Apellido;
 
-    public Usuario(String usrName, Date fechaNacimiento, String email,
-            String Nombre, String Apellido) {
+    public Usuario(String usrName, Date fechaNacimiento, String email, String Nombre, String Apellido) {
         this.usrName = usrName;
-        
+        if (GeneralToolkit.mayorDeEdad(fechaNacimiento)) {
+            this.fechaNacimiento = fechaNacimiento;
+        } else {
+            this.fechaNacimiento = null;
+        }
+        if (GeneralToolkit.checkMail(email)) {
+            this.email = email;
+        } else {
+            this.email = null;
+        }
+        this.Nombre = Nombre;
+        this.Apellido = Apellido;
+
     }
 
 }
