@@ -14,26 +14,26 @@ import com.bufigol.tools.GeneralToolkit;
  */
 public class Usuario {
 
-    private String usrName;
-    private Date fechaNacimiento;
-    private String email;
-    private String Nombre, Apellido;
+	private String usrName;
+	private Date fechaNacimiento;
+	private String email, Nombre, Apellido, pwd;
 
-    public Usuario(String usrName, Date fechaNacimiento, String email, String Nombre, String Apellido) {
-        this.usrName = usrName;
-        if (GeneralToolkit.mayorDeEdad(fechaNacimiento)) {
-            this.fechaNacimiento = fechaNacimiento;
-        } else {
-            this.fechaNacimiento = null;
-        }
-        if (GeneralToolkit.checkMail(email)) {
-            this.email = email;
-        } else {
-            this.email = null;
-        }
-        this.Nombre = Nombre;
-        this.Apellido = Apellido;
+	public Usuario(String usrName, Date fechaNacimiento, String email, String Nombre, String Apellido, String pwd) {
+		this.usrName = usrName;
+		if (GeneralToolkit.mayorDeEdad(fechaNacimiento)) {
+			this.fechaNacimiento = fechaNacimiento;
+		} else {
+			this.fechaNacimiento = null;
+		}
+		if (GeneralToolkit.checkMail(email)) {
+			this.email = email;
+		} else {
+			this.email = null;
+		}
+		this.Nombre = Nombre;
+		this.Apellido = Apellido;
+		this.pwd = pwd;
 
-    }
+	}
 
 }
