@@ -54,6 +54,9 @@ public class ConfigReader {
 		try {
 			input = new FileInputStream(configFile);
 			properties.load(input);
+			// Eliminar comillas dobles si existen en los valores de las propiedades
+			properties.forEach(
+					(key, value) -> properties.setProperty((String) key, ((String) value).replaceAll("^\"|\"$", "")));
 		} catch (FileNotFoundException e) {
 			ErrorLogger.logErrorWithErrorCode(CONST_CUSTOM_ERROR_CODES.FileNotFoundException, e.getMessage());
 			e.printStackTrace();

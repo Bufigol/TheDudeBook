@@ -20,3 +20,34 @@
 2024-02-27 12:13:20 - ERROR CODE: 0
 2024-02-27 12:13:20 - ERROR: No suitable driver found for "jdbc:mysql://localhost:3306";
 2024-02-27 12:13:20 - INFO: Conexión con la base de datos devuelta
+2024-02-27 16:12:24 - ERROR CODE: 101
+2024-02-27 16:12:24 - ERROR: C:\Users\felip\Proyectos Grandes\TheDudeBook\TheDudeBookPC\Reources\config.ini (El sistema no puede encontrar la ruta especificada)
+2024-02-27 16:12:24 - ERROR CODE: 0
+2024-02-27 16:12:24 - ERROR: The url cannot be null
+2024-02-27 16:20:10 - ERROR CODE: 101
+2024-02-27 16:20:10 - ERROR: C:\Users\felip\Proyectos Grandes\TheDudeBook\TheDudeBookPC\Reources\config.ini (El sistema no puede encontrar la ruta especificada)
+2024-02-27 16:20:10 - ERROR CODE: 0
+2024-02-27 16:20:10 - ERROR: The url cannot be null
+2024-02-27 16:23:05 - ERROR CODE: 101
+2024-02-27 16:23:05 - ERROR: \TheDudeBookPC\Reources\config.ini (El sistema no puede encontrar la ruta especificada)
+2024-02-27 16:23:35 - ERROR CODE: 0
+2024-02-27 16:23:35 - ERROR: No suitable driver found for "jdbc:mysql://localhost:3306"
+2024-02-27 16:25:53 - ERROR CODE: 0
+2024-02-27 16:25:53 - ERROR: No suitable driver found for "jdbc:mysql://localhost:3306"
+2024-02-27 16:29:32 - ERROR CODE: 1045
+2024-02-27 16:29:32 - ERROR: Access denied for user 'JavaProgram'@'localhost' (using password: YES)
+2024-02-27 16:37:30 - INFO: Conexión con la base de datos establecida
+2024-02-27 16:38:00 - INFO: Conexión con la base de datos establecida
+2024-02-27 16:38:00 - INFO: Conexión con la base de datos devuelta
+2024-02-27 16:38:51 - ERROR CODE: 101
+2024-02-27 16:38:51 - ERROR: TheDudeBook\TheDudeBookPC\Reources\config.ini (El sistema no puede encontrar la ruta especificada)
+2024-02-27 16:38:51 - ERROR CODE: 0
+2024-02-27 16:38:51 - ERROR: The url cannot be null
+2024-02-27 16:38:51 - INFO: Conexión con la base de datos devuelta
+2024-02-27 16:39:07 - ERROR CODE: 101
+2024-02-27 16:39:07 - ERROR: Workspace Eclipse\TheDudeBook\TheDudeBookPC\Reources\config.ini (El sistema no puede encontrar la ruta especificada)
+2024-02-27 16:39:07 - ERROR CODE: 0
+2024-02-27 16:39:07 - ERROR: The url cannot be null
+2024-02-27 16:39:07 - INFO: Conexión con la base de datos devuelta
+2024-02-27 16:39:26 - INFO: Conexión con la base de datos establecida
+2024-02-27 16:39:26 - INFO: Conexión con la base de datos devuelta
