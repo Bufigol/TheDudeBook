@@ -1,0 +1,22 @@
+2024-02-27 11:54:32 - ERROR CODE: 101
+2024-02-27 11:54:32 - ERROR: Resources\config.ini (El sistema no puede encontrar la ruta especificada)
+2024-02-27 11:54:32 - ERROR CODE: 0
+2024-02-27 11:54:32 - ERROR: The url cannot be null
+2024-02-27 11:54:32 - INFO: Conexión con la base de datos devuelta
+2024-02-27 11:55:08 - ERROR CODE: 101
+2024-02-27 11:55:08 - ERROR: \TheDudeBookPC\Reources\config.ini (El sistema no puede encontrar la ruta especificada)
+2024-02-27 11:55:08 - ERROR CODE: 0
+2024-02-27 11:55:08 - ERROR: The url cannot be null
+2024-02-27 11:55:08 - INFO: Conexión con la base de datos devuelta
+2024-02-27 11:55:45 - ERROR CODE: 0
+2024-02-27 11:55:45 - ERROR: No suitable driver found for "jdbc:mysql://localhost:3306/TheDudeBook";
+2024-02-27 11:55:45 - INFO: Conexión con la base de datos devuelta
+2024-02-27 12:05:32 - ERROR CODE: 0
+2024-02-27 12:05:32 - ERROR: No suitable driver found for "jdbc:mysql://localhost:3306/TheDudeBook";
+2024-02-27 12:05:32 - INFO: Conexión con la base de datos devuelta
+2024-02-27 12:13:00 - ERROR CODE: 0
+2024-02-27 12:13:00 - ERROR: No suitable driver found for "jdbc:mysql://localhost:3306/TheDudeBook";
+2024-02-27 12:13:00 - INFO: Conexión con la base de datos devuelta
+2024-02-27 12:13:20 - ERROR CODE: 0
+2024-02-27 12:13:20 - ERROR: No suitable driver found for "jdbc:mysql://localhost:3306";
+2024-02-27 12:13:20 - INFO: Conexión con la base de datos devuelta

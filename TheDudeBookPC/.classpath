@@ -16,15 +16,21 @@
 			<attribute name="module" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/felip/Documents/Trabajo/WebScrapingCleveroxProyect/mysql-connector-java-8.0.26.jar">
-		<attributes>
-			<attribute name="module" value="true"/>
-		</attributes>
-	</classpathentry>
 	<classpathentry kind="lib" path="C:/Users/felip/Documents/Trabajo/WebScrapingCleveroxProyect/protobuf-java-3.11.4.jar">
 		<attributes>
 			<attribute name="module" value="true"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/felip/Proyectos Grandes/TheDudeBook/mysql-connector-j-8.3.0/mysql-connector-j-8.3.0/mysql-connector-j-8.3.0.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/felip/Proyectos Grandes/TheDudeBook/mysql-connector-j-8.3.0/mysql-connector-j-8.3.0/src"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
