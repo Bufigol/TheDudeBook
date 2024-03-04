@@ -63,4 +63,14 @@ public class DDBB_Conection {
 			ErrorLogger.logErrorWithErrorCode(e.getErrorCode(), e.getMessage());
 		}
 	}
+
+	public void closeConection() {
+		try {
+			this.conexion.close();
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+	}
 }
